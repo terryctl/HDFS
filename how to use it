@@ -1,0 +1,47 @@
+hdfsDao
+
+/**
+ * 创建目录
+ */
+public void mkdir(String folder)
+
+/**
+ * 删除文件或目录
+ */
+public void rm(String folder) 
+
+/**
+ * 重命名文件
+ */
+public void rename(String src ,String dst)
+
+/**
+ * 遍历文件
+ */
+public void ls(String folder)
+
+/**
+* 创建文件
+*/
+public void createFile(String file,String content)
+
+/**
+* 上传文件
+*/
+public void copyFile(String local, String remote)
+
+/**
+* 下载文件
+*/
+public void download(String remote, String local)
+
+/**
+* 查看文件中的内容
+*/
+public String cat(String remoteFile)
+
+ /**
+* 转换编码
+*/
+public static void convert(String oldFile, String oldCharset, String newFile, String newCharset)
+
